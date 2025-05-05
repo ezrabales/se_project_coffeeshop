@@ -1,0 +1,50 @@
+.menu {
+  background-color: #fff;
+  background-image: url(../images/background_menu.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  animation: grow-with-color 4s ease-in-out infinite;
+}
+
+@keyframes grow-with-color {
+  0% {
+    background-size: 200vh;
+  }
+  50% {
+    background-size: 220vh;
+    background-color: #fbffed;
+  }
+  100% {
+    background-size: 200vh;
+  }
+}
+
+.menu__title {
+  margin: 100px auto 24px;
+  max-width: 780px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+}
+.menu__subtitle {
+  margin: 0 auto 100px;
+  max-width: 780px;
+  font-family: "Noto Serif", Times New Roman, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+}
+.menu__cards {
+  margin: 0 auto 100px;
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

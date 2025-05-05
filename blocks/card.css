@@ -1,0 +1,34 @@
+.card {
+  width: 540px;
+}
+
+.card:last-of-type {
+}
+
+.card__title {
+  margin-bottom: 32px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+}
+.card__list-item {
+  margin-bottom: 16px;
+  display: flex;
+  font-family: "Noto Serif", Times New Roman, serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.card__list-item:last-of-type {
+  margin: 0;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #000000;
+  display: block;
+}
