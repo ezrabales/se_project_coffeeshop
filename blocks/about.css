@@ -4,12 +4,12 @@
   justify-content: space-between;
   position: relative;
   z-index: -2;
+  padding: 100px 80px 173px;
 }
 
 .about__title {
   color: #fff;
   max-width: 251px;
-  margin: 100px 0 0 80px;
   z-index: 1;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
@@ -18,12 +18,10 @@
   line-height: 52px;
 }
 .about__content {
-  margin: 119px 80px 173px 0;
   max-width: 660px;
 }
 .about__paragraph {
   color: #fff;
-  margin-bottom: 20px;
   font-family: "Noto Serif", Times New Roman, serif;
   font-style: normal;
   font-weight: normal;

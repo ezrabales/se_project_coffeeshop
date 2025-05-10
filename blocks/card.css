@@ -2,10 +2,8 @@
   width: 540px;
 }
 
-.card:last-of-type {
-}
-
 .card__title {
+  margin-top: 0;
   margin-bottom: 32px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
