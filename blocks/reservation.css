@@ -6,21 +6,7 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-  animation: up-and-down 4s ease-in-out infinite;
   padding: 100px 80px 120px;
-}
-
-@keyframes up-and-down {
-  0% {
-    background-position-y: 0vh;
-  }
-  50% {
-    background-position-y: 5vh;
-    background-color: #d9e1ff;
-  }
-  100% {
-    background-position-y: 0vh;
-  }
 }
 
 .reservation__title {
