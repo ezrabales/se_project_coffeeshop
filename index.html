@@ -15,6 +15,10 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="href=https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="page">
@@ -96,10 +100,10 @@
                 allowfullscreen
                 class="recipes__iframe"
               ></iframe>
-              <div class="recipes__video-caption">
-                <p class="recipes__video-title">French press recipe</p>
-                <p class="recipes__video-length">~3 min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span>
+                <span>~3 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -141,16 +145,14 @@
                 required
               />
               <button class="form__button" type="button">Book a table</button>
-              <label class="form__terms">
+              <label class="form__label form__label_type_checkbox">
                 <input
                   class="form__checkbox"
                   type="checkbox"
                   id="terms"
                   required
                 />
-                <label class="form__label form__label_type_checkbox" for="terms"
-                  >I agree with the terms of use
-                </label>
+                I agree with the terms of use
               </label>
             </fieldset>
           </form>

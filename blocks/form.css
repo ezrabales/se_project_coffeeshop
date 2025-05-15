@@ -32,6 +32,7 @@
 
 .form__input {
   color: #838383;
+  box-sizing: border-box;
 }
 .form__input[type="text"],
 .form__input[type="number"],

@@ -5,6 +5,7 @@
   position: relative;
   padding: 100px 80px 173px;
   overflow: hidden;
+  z-index: 1;
 }
 
 .about__title {
@@ -20,6 +21,7 @@
 }
 .about__content {
   max-width: 660px;
+  margin-top: 19px;
 }
 .about__paragraph {
   color: #fff;
